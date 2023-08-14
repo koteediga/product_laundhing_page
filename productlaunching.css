@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container3 {
+    background-color: black;
+}
+
+.image3 {
+    height: 200px;
+    width: 200px;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.pinimg.com/564x/c6/3c/b6/c63cb61fa1f61e7389a1303d63d49bdf.jpg');
+    /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    height: 100vh;
+}
+
+.navbar1 {
+    background-color: transparent;
+    border-width: 15px;
+    border-color: red;
+    border-radius: 5px;
+
+}
+
+.d {
+    background-color: black;
+}
+
+
+.product-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.product-details img {
+    max-width: 300px;
+    height: auto;
+    margin-right: 2em;
+}
+
+.details {
+    max-width: 500px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s, color 0.2s;
+    background: linear-gradient(to right, #f85032, #e73827);
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-outline-button {
+    color: white;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 8px;
+
+}
+
+.navbar-image {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.n1 {
+    color: red;
+}
